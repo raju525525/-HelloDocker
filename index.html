@@ -3,11 +3,16 @@
 <body>
 
 
-<button onclick="myFunction()">Try it</button>
+<input type="button" value="click" onclick="myFunction()"></button>
 
 <script>
 function myFunction() {
-    setInterval(function(){ window.open("https://hellodocker1.cfapps.eu10.hana.ondemand.com/"); }, 3000);
+var i;
+for (i=0; i<1000; i++) 
+{
+    window.open("https://hellodocker1.cfapps.eu10.hana.ondemand.com/");
+    }
+    
 }
 </script>
 
